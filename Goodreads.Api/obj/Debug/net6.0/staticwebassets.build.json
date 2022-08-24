@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yrQXEkgVXA263c7Usr85n1LxzjYLNGwUL44YgelNEQM=",
+  "Source": "Goodreads.Api",
+  "BasePath": "_content/Goodreads.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

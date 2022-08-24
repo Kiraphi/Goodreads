@@ -1,0 +1,12 @@
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\bin\Debug\net6.0\Business.Data.deps.json
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\bin\Debug\net6.0\Business.Data.dll
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\bin\Debug\net6.0\Business.Data.pdb
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.AssemblyInfo.cs
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.dll
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\refint\Business.Data.dll
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\Business.Data.pdb
+C:\Users\PC\source\repos\Goodreads.Api\Business.Data\obj\Debug\net6.0\ref\Business.Data.dll

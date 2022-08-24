@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\bin\Debug\net6.0\Goodreads.Business.deps.json
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\bin\Debug\net6.0\Goodreads.Business.dll
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\bin\Debug\net6.0\Goodreads.Business.pdb
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.AssemblyInfo.cs
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.dll
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\refint\Goodreads.Business.dll
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.pdb
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\ref\Goodreads.Business.dll
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\bin\Debug\net6.0\Business.Data.dll
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\bin\Debug\net6.0\Business.Data.pdb
+C:\Users\PC\source\repos\Goodreads.Api\Goodreads.Business\obj\Debug\net6.0\Goodreads.Business.csproj.CopyComplete
