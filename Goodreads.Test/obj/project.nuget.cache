@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6ilOoryEvwXoxiHeS3PXzKUJQcaLxehDUvYDRcinCKxgIfu7aV35yJafMaeMiwLTTsR08AbVJvX9Y4poFYoNqQ==",
+  "dgSpecHash": "ld7/MTfZNKehjFn0i2qUroKgu7wd+eSDZR18eiowNfiNGisz7dDwW+lLLCQEW0NQRuEM8Fh/R08Tfn5Ig86IPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\source\\repos\\Goodreads.Api\\Goodreads.Test\\Goodreads.Test.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,9 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mockqueryable.core\\6.0.1\\mockqueryable.core.6.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mockqueryable.entityframeworkcore\\6.0.1\\mockqueryable.entityframeworkcore.6.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\mockqueryable.moq\\6.0.1\\mockqueryable.moq.6.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

@@ -15,8 +15,21 @@ public class BookService : IBookService
         _context = context;
     }
 
+    /// <summary>
+    /// Add a book to the list of books they have read
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
     public async Task<AddBookResponse> AddBook(AddBookRequest request)
     {
+        if (request.Book == null)
+        {
+            return new AddBookResponse
+            {
+                Status = false,
+                StatusCode = HttpStatusCode.BadRequest
+            };
+        }
         request.Book.Id = Guid.NewGuid();
         await _context.Books.AddAsync(request.Book);
         await _context.SaveChangesAsync();
@@ -27,6 +40,10 @@ public class BookService : IBookService
         };
     }
 
+    /// <summary>
+    /// View a list of books they have completed reading
+    /// </summary>
+    /// <returns>List of Book</returns>
     public async Task<GetCompletedBookResponse> GetCompletedBook()
     {
         var books = await _context.Books.Where(x => x.IsCompleted).ToListAsync();
@@ -38,6 +55,11 @@ public class BookService : IBookService
         };
     }
 
+    /// <summary>
+    /// Search for a book by name
+    /// </summary>
+    /// <param name="request">Name</param>
+    /// <returns>List of Book</returns>
     public async Task<SearchBookResponse> SearchBook(SearchBookRequest request)
     {
         var books = await _context.Books.Where(x => x.BookName.Contains(request.Name) || String.IsNullOrEmpty(request.Name)).ToListAsync();

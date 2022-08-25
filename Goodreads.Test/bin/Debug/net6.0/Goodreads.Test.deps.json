@@ -12,6 +12,7 @@
           "GenFu": "1.6.0",
           "Goodreads.Api": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
+          "MockQueryable.Moq": "6.0.1",
           "Moq": "4.18.2",
           "coverlet.collector": "3.1.2",
           "xunit": "2.4.1",
@@ -476,6 +477,38 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "MockQueryable.Core/6.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/MockQueryable.Core.dll": {
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "MockQueryable.EntityFrameworkCore/6.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.8",
+          "MockQueryable.Core": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/MockQueryable.EntityFrameworkCore.dll": {
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "MockQueryable.Moq/6.0.1": {
+        "dependencies": {
+          "MockQueryable.EntityFrameworkCore": "6.0.1",
+          "Moq": "4.18.2"
+        },
+        "runtime": {
+          "lib/net6.0/MockQueryable.Moq.dll": {
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.0.1"
           }
         }
       },
@@ -1685,6 +1718,27 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "MockQueryable.Core/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FUKgAeMBt5aN1PDjxDYYw22pGUxPGxa8SIrgDMgmqL5T8sjTBTyv6i7qGuOeOdu6eYYzyv3GMKWDkawx9bVjbg==",
+      "path": "mockqueryable.core/6.0.1",
+      "hashPath": "mockqueryable.core.6.0.1.nupkg.sha512"
+    },
+    "MockQueryable.EntityFrameworkCore/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fvgJ1fEi+BP5elx+rM/ZE8M8VUjy12RkLQs9H93SSR4BtkhkfAd1kTBQ4m9mcigQBxl7StN1uVJ91OwEQX8+0g==",
+      "path": "mockqueryable.entityframeworkcore/6.0.1",
+      "hashPath": "mockqueryable.entityframeworkcore.6.0.1.nupkg.sha512"
+    },
+    "MockQueryable.Moq/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u314CWM2ZU/HQJXBmLs1AbaoDmsDiwOGevWGT83Jq6cgjXCIVJaTbEw5ACV4zfjl2KGF8T4b/QHOrFRt7nbmBg==",
+      "path": "mockqueryable.moq/6.0.1",
+      "hashPath": "mockqueryable.moq.6.0.1.nupkg.sha512"
     },
     "Moq/4.18.2": {
       "type": "package",

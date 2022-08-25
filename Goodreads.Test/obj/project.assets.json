@@ -624,6 +624,41 @@
           }
         }
       },
+      "MockQueryable.Core/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MockQueryable.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MockQueryable.Core.dll": {}
+        }
+      },
+      "MockQueryable.EntityFrameworkCore/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3",
+          "MockQueryable.Core": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MockQueryable.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MockQueryable.EntityFrameworkCore.dll": {}
+        }
+      },
+      "MockQueryable.Moq/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MockQueryable.EntityFrameworkCore": "6.0.1",
+          "Moq": "4.8.0"
+        },
+        "compile": {
+          "lib/net6.0/MockQueryable.Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MockQueryable.Moq.dll": {}
+        }
+      },
       "Moq/4.18.2": {
         "type": "package",
         "dependencies": {
@@ -3732,6 +3767,48 @@
         "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "MockQueryable.Core/6.0.1": {
+      "sha512": "FUKgAeMBt5aN1PDjxDYYw22pGUxPGxa8SIrgDMgmqL5T8sjTBTyv6i7qGuOeOdu6eYYzyv3GMKWDkawx9bVjbg==",
+      "type": "package",
+      "path": "mockqueryable.core/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.1/MockQueryable.Core.dll",
+        "logo.png",
+        "mockqueryable.core.6.0.1.nupkg.sha512",
+        "mockqueryable.core.nuspec"
+      ]
+    },
+    "MockQueryable.EntityFrameworkCore/6.0.1": {
+      "sha512": "fvgJ1fEi+BP5elx+rM/ZE8M8VUjy12RkLQs9H93SSR4BtkhkfAd1kTBQ4m9mcigQBxl7StN1uVJ91OwEQX8+0g==",
+      "type": "package",
+      "path": "mockqueryable.entityframeworkcore/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/MockQueryable.EntityFrameworkCore.dll",
+        "logo.png",
+        "mockqueryable.entityframeworkcore.6.0.1.nupkg.sha512",
+        "mockqueryable.entityframeworkcore.nuspec"
+      ]
+    },
+    "MockQueryable.Moq/6.0.1": {
+      "sha512": "u314CWM2ZU/HQJXBmLs1AbaoDmsDiwOGevWGT83Jq6cgjXCIVJaTbEw5ACV4zfjl2KGF8T4b/QHOrFRt7nbmBg==",
+      "type": "package",
+      "path": "mockqueryable.moq/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/MockQueryable.Moq.dll",
+        "logo.png",
+        "mockqueryable.moq.6.0.1.nupkg.sha512",
+        "mockqueryable.moq.nuspec"
       ]
     },
     "Moq/4.18.2": {
@@ -7865,6 +7942,7 @@
       "GenFu >= 1.6.0",
       "Goodreads.Api >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
+      "MockQueryable.Moq >= 6.0.1",
       "Moq >= 4.18.2",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
@@ -7936,6 +8014,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.1.0, )"
+          },
+          "MockQueryable.Moq": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           },
           "Moq": {
             "target": "Package",
